@@ -1,0 +1,37 @@
+<HTML> 
+<HEAD>
+<TITLE> Видеоигры
+</TITLE> 
+</HEAD>
+<BODY TEXT="000000"
+BGCOLOR="#FF99FF"
+LINK="#000000"
+VLINK="#FF0000"
+ALINK="#000088">
+<CENTER><H1> Приветствую на странице группы №7
+</H1></CENTER>
+<CENTER><H2> На данном сайте вы можете найти акутальную информацию о видеоиграх (рпг,сюжетные) 
+</H2></CENTER> 
+<a href="file:///C:/Users/mirko/OneDrive/%D1%81%D0%B0%D0%B9%D1%82/%D0%BE%D0%B1%D1%89%D0%B0%D1%8F%20%D0%B8%D0%BD%D1%84%D0%B0.html">Общая информация о видеоиграх</a><br>
+<a href="file:///C:/Users/mirko/Downloads/38833FF26BA1D.UnigramPreview_g9c9v27vpyspw!App/%D0%92%D0%B8%D0%B7%D1%83%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5%20%D0%BD%D0%BE%D0%B2%D0%B5%D0%BB%D0%BB%D1%8B.html">Визуальные новеллы</a><br>
+<a href="file:///C:/Users/mirko/OneDrive/%D1%81%D0%B0%D0%B9%D1%82/%D1%80%D0%BF%D0%B3.html">Ролеплей игры</a>
+<B><I> </B></I> 
+<B> 
+</B> <B>
+</B>
+<P><CENTER> 
+</P></CENTER>
+<P><CENTER>
+</P></CENTER>
+<HR>
+<CENTER>
+<A HREF="http://www.yahoo.com">
+</A>
+</CENTER></P>
+<CENTER> 
+<A HREF="mailto:user@usa.net"> 
+</A>
+
+</CENTER>
+</BODY>
+</HTML>
