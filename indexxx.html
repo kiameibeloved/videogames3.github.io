@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <title>История дизайна IKEA</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --ikea-blue: #0058a3;
+      --ikea-yellow: #ffcc00;
+      --bg-light: #f4f6f8;
+      --text-dark: #1f2933;
+      --card-bg: #ffffff;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background-color: var(--bg-light);
+      color: var(--text-dark);
+      line-height: 1.7;
+    }
+
+    header {
+      background: linear-gradient(135deg, var(--ikea-blue), #003d73);
+      color: #fff;
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0 0 10px;
+      font-size: 38px;
+    }
+
+    header p {
+      font-size: 18px;
+      opacity: 0.9;
+    }
+
+    main {
+      max-width: 1100px;
+      margin: 50px auto;
+      padding: 0 20px;
+      display: grid;
+      gap: 30px;
+    }
+
+    .block {
+      background: var(--card-bg);
+      border-radius: 18px;
+      padding: 35px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+    }
+
+    .block h2 {
+      margin-top: 0;
+      color: var(--ikea-blue);
+      font-size: 26px;
+    }
+
+    .timeline {
+      border-left: 4px solid var(--ikea-blue);
+      padding-left: 25px;
+      margin-top: 20px;
+    }
+
+    .event {
+      margin-bottom: 25px;
+    }
+
+    .event span {
+      display: inline-block;
+      background-color: var(--ikea-yellow);
+      color: #000;
+      font-weight: 600;
+      padding: 4px 10px;
+      border-radius: 20px;
+      margin-bottom: 8px;
+    }
+
+    footer {
+      background-color: var(--ikea-blue);
+      color: #fff;
+      text-align: center;
+      padding: 25px 15px;
+      font-size: 14px;
+      margin-top: 60px;
+    }
+
+    footer span {
+      color: var(--ikea-yellow);
+      font-weight: 600;
+    }
+
+    @media (max-width: 600px) {
+      header h1 { font-size: 28px; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>История дизайна IKEA</h1>
+  <p>Формирование философии, стиля и визуального языка бренда</p>
+</header>
+
+<main>
+
+  <section class="block">
+    <h2>Зарождение дизайнерской философии</h2>
+    <p>
+      Компания IKEA была основана в 1943 году Ингваром Кампрадом в Швеции.
+      С самого начала дизайн рассматривался не как элемент роскоши, а как
+      инструмент улучшения повседневной жизни. Основной целью стало создание
+      доступной, функциональной и эстетичной мебели.
+    </p>
+  </section>
+
+  <section class="block">
+    <h2>Скандинавские корни</h2>
+    <p>
+      Дизайн IKEA формировался под сильным влиянием скандинавской эстетики:
+      минимализм, светлая цветовая палитра, простые формы и практичность.
+      Эти принципы позволили бренду создать универсальный стиль,
+      понятный потребителям по всему миру.
+    </p>
+  </section>
+
+  <section class="block">
+    <h2>Ключевые этапы развития</h2>
+
+    <div class="timeline">
+      <div class="event">
+        <span>1940–1950-е</span>
+        <p>Формирование принципов функционального и доступного дизайна.</p>
+      </div>
+
+      <div class="event">
+        <span>1960–1970-е</span>
+        <p>Внедрение плоской упаковки и развитие модульных решений.</p>
+      </div>
+
+      <div class="event">
+        <span>1980–1990-е</span>
+        <p>Международная экспансия и адаптация дизайна к разным рынкам.</p>
+      </div>
+
+      <div class="event">
+        <span>2000-е — настоящее время</span>
+        <p>Фокус на устойчивость, экологичность и инновационные материалы.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="block">
+    <h2>Значение дизайна IKEA</h2>
+    <p>
+      Дизайн IKEA оказал значительное влияние на массовую культуру и
+      представления о современном интерьере. Компания доказала,
+      что качественный дизайн может быть доступным и функциональным,
+      изменив потребительские ожидания во всём мире.
+    </p>
+  </section>
+
+</main>
+
+<footer>
+  <p>Учебный проект © <span>IKEA</span></p>
+</footer>
+</body>
+</html>
